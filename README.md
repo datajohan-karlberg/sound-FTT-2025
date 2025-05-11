@@ -1,59 +1,21 @@
-🎧 VB.NET 4.8 – Mikrofonbaserad Spektrumanalys med NAudio + FftSharp
-Projektet innehåller:
+# VbSpectrumAnalyzer
 
-Realtidsinspelning från mikrofonen med NAudio
+Ett VB.NET 4.8-program som visar spektrumanalys i realtid från mikrofonen.
 
-FFT-bearbetning med FftSharp
+## Funktioner
 
-Logaritmisk frekvensuppdelning (t.ex. 50–100 Hz, 100–200 Hz, ...)
+- Använder NAudio för att spela in ljud
+- FFT-bearbetning med FftSharp
+- Logaritmisk frekvensindelning (50 Hz till 12 kHz)
+- Visar 8 tydliga staplar i ett Panel-fönster
+- Kräver .NET Framework 4.8
 
-Grafisk visning av 8 staplar i ett WinForms-Panel
+## Skärmbild
 
-Skalning av amplitud med fftBins(b) = sum / count * 2 för tydlig visning
+![screenshot](screenshot.png)
 
-📁 Projektstruktur
-arduino
-Kopiera
-Redigera
+## Kom igång
 
-VbSpectrumAnalyzer/
-├── Form1.vb
-├── VbSpectrumAnalyzer.vbproj
-├── README.md
-├── LICENSE (MIT)
-└── packages.config
-🧪 Testa det själv
-Kloning av projektet:
-
-bash
-Kopiera
-Redigera
-git clone https://github.com/ditt-användarnamn/VbSpectrumAnalyzer.git
-Öppna VbSpectrumAnalyzer.sln i Visual Studio.
-
-Installera NuGet-paketen:
-
-NAudio
-
-FftSharp
-DigitalOcean
-+13
-The freeCodeCamp Forum
-+13
-Microsoft Learn
-+13
-Microsoft Learn
-+8
-Open Source Guides
-+8
-GitHub Docs
-+8
-
-Kör projektet.
-
-📷 Skärmbild
-
-
-📄 Licens
-MIT-licens – använd och modifiera fritt.
-
+1. Klona repot:
+   ```bash
+   git clone https://github.com/datajohan-karlberg/VbSpectrumAnalyzer.git
