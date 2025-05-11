@@ -19,3 +19,9 @@ Ett VB.NET 4.8-program som visar spektrumanalys i realtid från mikrofonen.
 1. Klona repot:
    ```bash
    git clone https://github.com/datajohan-karlberg/VbSpectrumAnalyzer.git
+
+
+## nuget prylar
+
+Install-Package NWaves
+Install-Package FftSharp
