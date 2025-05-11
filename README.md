@@ -12,7 +12,7 @@ Ett VB.NET 4.8-program som visar spektrumanalys i realtid från mikrofonen.
 
 ## Skärmbild
 
-![screenshot](screenshot.png)
+![screenshot](Pict 2025-05-11 07-57-48 001.png)
 
 ## Kom igång
 
