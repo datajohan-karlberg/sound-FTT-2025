@@ -12,7 +12,7 @@ Ett VB.NET 4.8-program som visar spektrumanalys i realtid från mikrofonen.
 
 ## Skärmbild
 
-![screenshot](Pict 2025-05-11 07-57-48 001.png)
+![alt text](https://github.com/datajohan-karlberg/sound-FTT-2025/blob/master/Pict%202025-05-11%2007-57-48%20001.png)
 
 ## Kom igång
 
